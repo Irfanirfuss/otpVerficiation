@@ -1,0 +1,81 @@
+input {
+    width: 30px;
+    border: none;
+    border-bottom: 4px solid #f11a7b;
+    text-align: center;
+    color: #ffe4d6;
+    font-size: 25px;
+    background-color: transparent;
+}
+
+input:focus {
+    outline: none;
+    border-bottom: 5px solid #fc6736;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    width: 350px;
+    padding: 30px;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+form {
+    background-color: grey;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://t4.ftcdn.net/jpg/04/61/47/03/360_F_461470323_6TMQSkCCs9XQoTtyer8VCsFypxwRiDGU.jpg");
+    background-size: cover;
+}
+
+.btn-con {
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+p {
+    color: #ff9209;
+    font-size: 20px;
+}
+
+h1 {
+    color: #f5cca0;
+}
+
+@media screen and (max-width: 768px) {
+    .btn-con {
+        text-align: right;
+    }
+}
+
+button {
+    color: #fff;
+    padding: 10px;
+    background-color: blue;
+    border: none;
+    border-radius: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.25);
+    background-color: green;
+}
+
+#msg {
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
